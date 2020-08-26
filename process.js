@@ -1,22 +1,22 @@
 //const process = require('process')
 
-//Podemos utilizar el mismo process que esta en global sin
-//tener que requerirlo
+//We can use the same process that is in global...
+//...without require ir
 
-//antes de que el proceso termine
+//before the process ends
 process.on('beforeExit', () => {
     console.log('El proceso va a terminar')
 }) 
 
-//detectar cuando vaya a salir el programa
+//detect when the program will exit
 process.on('exit', () => {
     console.log('Ale, el proceso acabó')
 }) 
 
 
-//Cuando algo se rompe y no hay un try/catch
-//process.on('uncaughtException') //excepciones que no se han capturado
-//process.on('uncaughtRejection') //promesas rechazadas y no hay un catch
+//When something breaks and there is no try/catch
+//process.on('uncaughtException') //exceptions that hace no been caught
+//process.on('uncaughtRejection') //promises rejected and there is no catch
 
 process.on('uncaughtException', (err, origen) => {
     console.error('Vaya se nos ha olvidado capturar un error')

@@ -13,7 +13,7 @@ try {
 console.log('esto de aqui está al final') */
 
 
-// --Error sincrono
+// --Sync Error
 function otraFuncion() {
     serompe()
 }
@@ -31,9 +31,9 @@ try {
 }
 
 console.log('esto de aqui está al final')
-//Los errores en nodeJs se lanzan hacia arriba o la raiz en la que estamos llamando
+//The errors in Node.js are thrown up or the root in which we are calling
 
-// --Error asincrona
+// --Async Error
 function otraFuncion() {
     serompe()
 }

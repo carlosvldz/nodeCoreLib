@@ -1,9 +1,9 @@
-//traer módulo
-const fs = require('fs') //no se especifica de donde viene ya que esta directo en el core de node
+//call module
+const fs = require('fs') //Not necesary specified where it comes, cause its directly in the core of node
 
 function leer(ruta, cb) {
     fs.readFile(ruta, (err, data) =>{
-        cb(data.toString())  //se coloca toString para que permite leer el texto
+        cb(data.toString())  //toString placed to allow the text to be read
     })
 }
 

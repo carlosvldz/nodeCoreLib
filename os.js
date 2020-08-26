@@ -1,13 +1,13 @@
 const os = requiere('os')
 
-console.log(os.hostname());//  Voy a saber el hostname de la máquina
-console.log(os.networkInterfaces());// Puedo acceder a mi interfaz de red activas en mi máquina, puedo saber  IPVX
-console.log(os.tmpdir())//-->Me muestra los directorios temporales, temproales una imagen que voy a procesar
-console.log(os.homedir()) // Me permite saber cual es el directorio raíz
-console.log(os.arch()); //----> Me devuelve la arquitecura de mi OS
-console.log(os.platform());//---> Me dice en qué plataforma estoy
-console.log(os.cpus());//--->podemos acceder a la información de las cpus de mi pc.
-console.log(os.constants);//--->  Me muestran todos los errores de sistema.
+console.log(os.hostname());//  know the hostname of the machine
+console.log(os.networkInterfaces());// Access my active network interface
+console.log(os.tmpdir())//-->Show the temporary directories
+console.log(os.homedir()) // Show which is the root directory
+console.log(os.arch()); //----> Returns the arch of my OS
+console.log(os.platform());//---> Returns the platform Im on
+console.log(os.cpus());//--->Allows access the info of the CPUs of the PC
+console.log(os.constants);//---> Show all the system errors
 
 
 //Acceder a espacios de memoria es muy útil para saber si tengo a memoria suficiente para realizar esta operación.

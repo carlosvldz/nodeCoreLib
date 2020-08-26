@@ -1,6 +1,6 @@
 const { exec, spawn } = require('child_process')
 /*
-//equivalente a:
+//Its equal to:
 //const exec = require('child_process').exec
 exec('node modulos/consola.js', (err, stdout, sterr) => {
     if (err) {

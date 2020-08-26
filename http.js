@@ -6,11 +6,11 @@ http.createServer(function (req, res) {
 
     res.writeHead(201, { 'Content-Type': 'text/plain' })
 
-    // Escribir respuesta al usuario
+    // write client response
     res.write('Hola ya se usar http de node.js')
 
-    res.end() //terminar y mandar la petición
-}).listen(3000) //indicamos puerto
+    res.end() //end and send the request
+}).listen(3000) //indicate port
 
 console.log('Escuchando HTTP en el puerto 3000') */
 

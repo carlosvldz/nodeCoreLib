@@ -11,14 +11,14 @@ setImmediate(function() {
     console.log('Hola')
 })
 
-require //para acceder a cualquier módulo
+require //to call any module
 
-console.log(process) //para accesar a la clase del proceso
+console.log(process) //access the process class
 
-console.log(__filename) //para saber como se llama este fichero
+console.log(__filename) //to know whats the name of the file
 
-//Para crear variables globales 
+//Allows to create globar vars
 globalThis.miVariable = 'elValor'
 
 console.log(miVariable)
-//Si no es necesario no utilizar variables globales
+
